@@ -19,7 +19,7 @@ var particle= function(x, y, direction, speed, xlr8= 0, friction= 0)
 	{
 		var temp= new vector(0, 0);
 
-		if(delta == 0 || delta == undefined || delta == null);
+		if(delta == 0 || delta == undefined || delta == null)
 			this.position.add(this.velocity);
 		else
 		{
